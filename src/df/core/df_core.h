@@ -88,6 +88,13 @@ struct DF_FuzzyMatchRangeList
   U64 count;
 };
 
+typedef struct DF_ScoredFuzzyMatchRangeList DF_ScoredFuzzyMatchRangeList;
+struct DF_ScoredFuzzyMatchRangeList
+{
+  DF_FuzzyMatchRangeList list;
+  S32 score;
+};
+
 ////////////////////////////////
 //~ rjf: Control Context Types
 

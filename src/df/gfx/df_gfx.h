@@ -805,6 +805,7 @@ global DF_DragDropPayload df_g_drag_drop_payload = {0};
 
 internal DF_PathQuery df_path_query_from_string(String8 string);
 internal DF_FuzzyMatchRangeList df_fuzzy_match_find(Arena *arena, String8List needles, String8 haystack);
+internal DF_ScoredFuzzyMatchRangeList df_scored_fuzzy_match_find(Arena *arena, String8List needles, String8 haystack);
 
 ////////////////////////////////
 //~ rjf: View Type Functions
